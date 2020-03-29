@@ -21,16 +21,16 @@ for (i in as.character(11:18)) {
 ## Coordenadores
 
 dados_coordenadores <- 'https://dados.educacao.sp.gov.br/sites/default/files/PROFESSOR_COORDENADOR.csv'
-coordernador <- read.csv2(dados_coordenador)
+coordernador <- read_csv2(dados_coordenadores)
 
 ## Diretores
 
 dados_diretores <- 'https://dados.educacao.sp.gov.br/sites/default/files/DIRETORES%20DE%20ESCOLA.csv'
-diretores <- read.csv2(dados_diretores)
+diretores <- read_csv2(dados_diretores)
 
 ## Vice Diretores
 dados_vice_diretor <- 'https://dados.educacao.sp.gov.br/sites/default/files/VICE_DIRETOR.csv'
-vice_diretores <-  read.csv2(dados_vice_diretor)
+vice_diretores <-  read_csv2(dados_vice_diretor)
 
 ## Ausencias por servidor ----
 
