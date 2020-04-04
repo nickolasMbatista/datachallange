@@ -80,7 +80,7 @@ DADOS_ATR_TOTAL<- 'https://dados.educacao.sp.gov.br/sites/default/files/total.cs
 ATR_TOTAL <- read_csv(DADOS_ATR_TOTAL)
 
 DADOS_ATR<- 'https://dados.educacao.sp.gov.br/sites/default/files/atribuicao.csv'
-ATR <- read_csv(DADOS_ATR_TOTAL)
+ATR <- read_csv(DADOS_ATR)
 
 ## Servidores ativos por Unidade ----
 
@@ -107,7 +107,7 @@ HD_1119 <- read_csv2(DADOS_HD_1119)
 
 HD_0419 <- read_csv2(DADOS_HD_0419)
 
-## Hist?rico de matr?culas por turma ----
+## Histirico de matriculas por turma ----
 
 DADOS_ALUNO_ESCOLA <- 'https://dados.educacao.sp.gov.br/sites/default/files/10_Escolas_Classes_Qtde_Alunos.csv'
 
@@ -123,7 +123,7 @@ END20 <- read_csv2(DADOS_END20)
 
 END18 <- read_csv2(DADOS_END18)
 
-## Instalacoes f?sicas por Unidade Escolar ----
+## Instalacoes fisicas por Unidade Escolar ----
 
 DADOS_IF_ESCOLA <-'https://dados.educacao.sp.gov.br/sites/default/files/06_Escolas_Dependencias.csv'
 
@@ -133,3 +133,17 @@ IF_ESCOLA <- read_csv2(DADOS_IF_ESCOLA)
 
 DADOS_MMR <- 'https://dados.educacao.sp.gov.br/sites/default/files/12_MMR_Clusters.csv'
 MMR <- read_csv2(DADOS_MMR)
+
+## Formacao por Servidor ----
+
+DADOS_FORMACAO1118 <- 'https://dados.educacao.sp.gov.br/sites/default/files/BASE_FORMACAO_1118.csv'
+
+DADOS_FORMACAO1119 <- 'https://dados.educacao.sp.gov.br/sites/default/files/BASE_FORMACAO_1119a.csv'
+
+DADOS_FORMACAO0419 <- 'https://dados.educacao.sp.gov.br/sites/default/files/BASE_FORMACAO_0419a.csv'
+
+FORMACAO1118 <- read_csv2(DADOS_FORMACAO1118)
+
+FORMACAO1119 <- read_csv2(DADOS_FORMACAO1119)
+
+FORMACAO0419 <- read_csv2(DADOS_FORMACAO0419)
